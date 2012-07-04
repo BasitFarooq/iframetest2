@@ -14,8 +14,28 @@
         document.body.appendChild(ifrm);
     } 
 </script> 
+ <script type="text/javascript">
+     function loaded() {
+         var visitor = navigator.onLine ? "ONLINE" : "OFFLINE";
+
+         if (visitor == "ONLINE") {
+  
+             makeFrame();
+         } else if (visitor == "OFFLINE") {
+             alert("Active Internet Connection Required");
+             window.close();
+         }
+     }
+   </script>
+
+
+   <!--onload="loadJQuery()"-->
 </head> 
-<body onload="makeFrame()"> 
+<body onload="loaded()" > 
  <iframe id="IFRAME"></iframe>
+
+    <div id="status"><p id="state"></p></div>
+   <div id="log"></div>
+
 </body> 
 </html>
