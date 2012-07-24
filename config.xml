@@ -16,37 +16,11 @@
   <author href="http://www.kids2prosports.com" email="farooq.basit@gmail.com">
     Basit Farooq
   </author>
-  
-  <!--icons -->
-  
-        <!-- webos -->
-     
-        <!-- iphone -->
-        
-        <!-- andriod -->
-      
-        <!-- bb -->
-      
-        
-  
-  
-  
-  <!--icons end -->
-  
-  
-  <!--Splash screens -->
-  
-        <!-- iphone -->
-     
-        <!-- blackberry -->
-       
-        <!-- andriod -->
-      
-        
  
-  <!--Splash ends-->
-
-
+  
+  
+  
+ 
    <preference name="orientation" value="landscape" />
   
 </widget>
